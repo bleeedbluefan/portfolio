@@ -43,4 +43,21 @@ body {
 
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: white;
+    }
+
+    .about-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .about-item {
+        padding: 10px;
+    }
+}
+
 
