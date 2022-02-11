@@ -13,10 +13,11 @@
 }
 
 .about-container {
-    width: 1400px;
+    width: 1100px;
     display: flex;
     justify-content: space-around;
     padding: 20px 0;
+    flex-wrap: wrap;
 
 }
 .about-item {
